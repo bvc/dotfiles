@@ -1,5 +1,6 @@
 # general shortcuts
 alias v='vim'
+alias ll='ls -l'
 
 # git shortcuts
 alias g='git status'
