@@ -1,7 +1,5 @@
-export PATH="/usr/local/bin:/bin:/usr/sbin:/sbin:/usr/bin:~/dotfiles/bash/bin"
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-
-. ~/dotfiles/bash/env
-. ~/dotfiles/bash/config
-. ~/dotfiles/bash/aliases
+source $HOME/dotfiles/bash/prompt
+source $HOME/dotfiles/bash/exports
+source $HOME/dotfiles/bash/paths
+source $HOME/dotfiles/bash/aliases
