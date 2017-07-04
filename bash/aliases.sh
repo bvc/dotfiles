@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # general shortcuts
 alias v='vim'
 alias ll='ls -l'
