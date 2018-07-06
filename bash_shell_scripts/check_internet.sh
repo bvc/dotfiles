@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
+# Pings www.example.com to see if your local internet is running
 
-ping www.google.com
+ping www.example.com
