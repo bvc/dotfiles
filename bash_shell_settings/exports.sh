@@ -4,4 +4,4 @@
 export EDITOR="vim"
 
 # Work log path
-export WORK_LOG="~/work-log/"
+export WORK_LOG="/Users/brian/work-log/"
