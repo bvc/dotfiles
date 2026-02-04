@@ -12,6 +12,14 @@ export PATH="$PATH:/Users/brian/Library/Application Support/JetBrains/Toolbox/sc
 # Added for Homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+# Added for pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - zsh)"
+
+# uv (Python package manager)
+source $HOME/.local/bin/env
+
 # Added for nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
